@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">أذكروني..أذكركم</string>
+    <string name="allah">الابذكر الله</string>
+    <string name="heart">تطمئن القلوب</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="z">اختر الذكر:-</string>
+    <string name="item1">لون السبحة</string>
+    <string name="ahsant">أحسنت👏</string>
+    <string name="aa">لن يذبل قلبك وأنت بذكر الله تسقيه💙</string>
+    <string name="ll">الحمد لله</string>
+    <string name="tt">الحمد لله</string>
+    <string name="pp">التالي</string>
+    <string name="ss">لون السبحة</string>
+    <string name="tttt">اضغط على البرطمان</string>
+    <string name="rr">✨✨✨✨✨✨✨✨✨✨✨✨✨✨</string>
+    <string name="yy">التالي</string>
+    <string name="pppo">التالي</string>
+    <string name="ww">اللهم اصبحنا ةاصبح الملك لله</string>
+    <string name="الصباح">أذكار الصباح</string>
+</resources>

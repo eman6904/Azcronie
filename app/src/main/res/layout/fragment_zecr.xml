@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fr"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#070F40"
+    tools:context=".ZecrFragment">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:fontFamily="@font/bold"
+        android:layout_gravity="right"
+        android:layout_marginRight="@dimen/_12sdp"
+        android:padding="@dimen/_3sdp"
+        android:text="@string/tt"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="-8dp"
+        android:scaleX="1"
+        android:scaleY="1"
+        android:src="@drawable/flo1" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_300sdp"
+            android:src="@drawable/spha" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:layout_marginLeft="@dimen/_40sdp"
+            android:layout_marginBottom="@dimen/_50sdp"
+            android:gravity="center"
+            android:text="0"
+            android:textSize="40sp" />
+
+    </FrameLayout>
+</FrameLayout>

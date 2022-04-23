@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/face"
+    android:layout_height="match_parent"
+    tools:context=".FaceFragment">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/arabic"
+        android:layout_gravity="top"
+        android:layout_marginLeft="@dimen/_138sdp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_marginBottom="@dimen/_55sdp"
+        android:text="@string/allah"
+        android:textSize="12dp"
+        tools:layout_editor_absoluteX="179dp"
+        tools:layout_editor_absoluteY="341dp" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/arabic"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="@dimen/_132sdp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="@string/heart"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="179dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+</FrameLayout>

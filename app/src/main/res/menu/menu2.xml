@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/overflowMenu"
+        android:icon="@drawable/menu1"
+        android:title=""
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/RS"
+                android:title="رسالة من البرطمان"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/z1"
+                android:title="أذكار الصباح"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/z2"
+                android:title="أذكار المساء"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+</menu>

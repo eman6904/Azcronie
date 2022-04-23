@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/overflowMenu"
+        android:icon="@drawable/menu1"
+        android:title=""
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/green"
+                android:title="أخضر"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/red"
+                android:title=" أحمر"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/beige"
+                android:title="بيج"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/f"
+                android:title="الوضع الافتراضي"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+</menu>
