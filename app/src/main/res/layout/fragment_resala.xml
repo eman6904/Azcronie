@@ -6,36 +6,20 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="#1E2C81"
+    android:background="#6A4C27"
    >
 
-    <androidx.cardview.widget.CardView
-        android:layout_width="@dimen/_320sdp"
-        android:layout_height="wrap_content"
-        app:cardBackgroundColor="#070F40"
-        app:cardCornerRadius="10dp"
-        app:cardUseCompatPadding="true"
-        app:cardElevation="10dp">
-
-        <TextView
-            android:id="@+id/t1"
-            android:gravity="center"
-            android:layout_width="400dp"
-            android:layout_height="wrap_content"
-            android:padding="@dimen/_16sdp"
-            android:layout_gravity="center"
-            android:background="#070F40"
-            android:text="@string/الصباح"
-            android:textSize="20sp"
-            android:fontFamily="@font/bold"
-            android:textColor="@color/white"
-           />
-
-    </androidx.cardview.widget.CardView>
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_height="344dp"
+        android:layout_marginTop="-60dp"
+        app:srcCompat="@drawable/kkk3" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/re"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
          />
+
 </LinearLayout>

@@ -25,15 +25,44 @@ class BlankFragment : Fragment(R.layout.fragment_blank) {
         activity.supportActionBar?.hide()
 
         val number = arguments?.getInt("number")
-
-
+        val n = arguments?.getInt("key")
         val p = ArrayGroup()
+
+     if(n==1)
+     {
+         binding.t1.text = "أذكار الصلاة"
+         val adapter = Adapter2(p.setSalah())
+         binding.re.layoutManager = LinearLayoutManager(requireContext())
+         binding.re.adapter = adapter
+     }
+      else  if(n==2)
+        {
+            binding.t1.text = "أذكار المسجد"
+            val adapter = Adapter2(p.setMsgedd())
+            binding.re.layoutManager = LinearLayoutManager(requireContext())
+            binding.re.adapter = adapter
+        }
+     else  if(n==3)
+     {
+         binding.t1.text = "أذكار النوم"
+         val adapter = Adapter2(p.setSleep())
+         binding.re.layoutManager = LinearLayoutManager(requireContext())
+         binding.re.adapter = adapter
+     }
+     else  if(n==4)
+     {
+         binding.t1.text = "أذكار الاستيقاظ"
+         val adapter = Adapter2(p.setWakeup())
+         binding.re.layoutManager = LinearLayoutManager(requireContext())
+         binding.re.adapter = adapter
+     }
+
         if (number == 1) {
             binding.t1.text = "أذكار الصباح"
             val adapter = Adapter2(p.setMorning())
             binding.re.layoutManager = LinearLayoutManager(requireContext())
             binding.re.adapter = adapter
-        } else {
+        } else if(number==2) {
             val adapter = Adapter2(p.setEvening())
             binding.re.layoutManager = LinearLayoutManager(requireContext())
             binding.re.adapter = adapter

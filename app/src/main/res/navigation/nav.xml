@@ -118,5 +118,17 @@
         <action
             android:id="@+id/action_chooseFragment2_to_brFragment"
             app:destination="@id/brFragment" />
+        <action
+            android:id="@+id/action_chooseFragment2_to_finalFragment2"
+            app:destination="@id/finalFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/finalFragment2"
+        android:name="com.example.azcronie.FinalFragment2"
+        android:label="fragment_final2"
+        tools:layout="@layout/fragment_final2" >
+        <action
+            android:id="@+id/action_finalFragment2_to_blankFragment"
+            app:destination="@id/blankFragment" />
     </fragment>
 </navigation>

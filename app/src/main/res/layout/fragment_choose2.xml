@@ -9,74 +9,75 @@
     android:background="#070F40"
     tools:context=".ChooseFragment2">
 
-
-    <ImageView
-        android:id="@+id/S"
-        android:layout_width="@dimen/_250sdp"
-        android:layout_height="@dimen/_200sdp"
-      android:layout_marginLeft="@dimen/_30sdp"
-        android:src="@drawable/lef" />
-    <ImageView
-        android:id="@+id/m"
-        android:layout_width="@dimen/_250sdp"
-        android:layout_height="@dimen/_200sdp"
-        android:layout_marginLeft="@dimen/_30sdp"
-        android:layout_marginTop="@dimen/_160sdp"
-        android:src="@drawable/lef" />
-    <ImageView
-        android:id="@+id/t"
-        android:layout_width="@dimen/_250sdp"
-        android:layout_height="@dimen/_200sdp"
-        android:layout_marginLeft="@dimen/_30sdp"
-        android:layout_marginTop="@dimen/_320sdp"
-        android:src="@drawable/lef" />
-    <ImageView
-        android:id="@+id/k"
-        android:layout_width="@dimen/_250sdp"
-        android:layout_height="@dimen/_200sdp"
-        android:layout_marginLeft="@dimen/_39sdp"
-        android:layout_marginTop="@dimen/_450sdp"
-        android:scaleY="2"
-        android:scaleX="1.3"
-        android:src="@drawable/potophoto" />
-
     <TextView
         android:id="@+id/ss"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="@dimen/_220sdp"
+        android:layout_height="@dimen/_45sdp"
         android:text="أذكار الصباح"
-        android:layout_marginLeft="@dimen/_89sdp"
-        android:layout_marginTop="@dimen/_80sdp"
+        android:gravity="center"
+        android:background="@drawable/chose"
+        android:layout_marginLeft="@dimen/_45sdp"
+        android:layout_marginTop="@dimen/_110sdp"
         android:textColor="@color/white"
-        android:textSize="@dimen/_22sdp"
+        android:textSize="@dimen/_20sdp"
         android:fontFamily="@font/bold"/>
     <TextView
         android:id="@+id/mm"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="@dimen/_220sdp"
+        android:layout_height="@dimen/_45sdp"
         android:text="أذكار المساء"
-        android:layout_marginLeft="@dimen/_89sdp"
-        android:layout_marginTop="@dimen/_235sdp"
+        android:gravity="center"
+        android:background="@drawable/chose"
+        android:layout_marginLeft="@dimen/_45sdp"
+        android:layout_marginTop="@dimen/_180sdp"
         android:textColor="@color/white"
-        android:textSize="@dimen/_22sdp"
+        android:textSize="@dimen/_20sdp"
         android:fontFamily="@font/bold"/>
     <TextView
         android:id="@+id/tt"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="@dimen/_220sdp"
+        android:layout_height="@dimen/_45sdp"
+        android:gravity="center"
         android:text="المسبحة"
-        android:layout_marginLeft="@dimen/_120sdp"
-        android:layout_marginTop="@dimen/_390sdp"
+        android:background="@drawable/chose"
+        android:layout_marginLeft="@dimen/_45sdp"
+        android:layout_marginTop="@dimen/_250sdp"
         android:textColor="@color/white"
         android:textSize="@dimen/_22sdp"
         android:fontFamily="@font/bold"/>
     <TextView
         android:id="@+id/kk"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="@dimen/_220sdp"
+        android:layout_height="@dimen/_45sdp"
         android:text="رسالة من البرطمان"
-        android:layout_marginLeft="@dimen/_65sdp"
-        android:layout_marginTop="@dimen/_540sdp"
+        android:background="@drawable/chose"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/_45sdp"
+        android:layout_marginTop="@dimen/_460sdp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_20sdp"
+        android:fontFamily="@font/bold"/>
+    <TextView
+        android:id="@+id/pp"
+        android:layout_width="@dimen/_220sdp"
+        android:layout_height="@dimen/_45sdp"
+        android:text="عطر جمعتك"
+        android:background="@drawable/chose"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/_45sdp"
+        android:layout_marginTop="@dimen/_390sdp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_20sdp"
+        android:fontFamily="@font/bold"/>
+    <TextView
+        android:id="@+id/ww"
+        android:layout_width="@dimen/_220sdp"
+        android:layout_height="@dimen/_45sdp"
+        android:text="أذكار أخري"
+        android:background="@drawable/chose"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/_45sdp"
+        android:layout_marginTop="@dimen/_320sdp"
         android:textColor="@color/white"
         android:textSize="@dimen/_20sdp"
         android:fontFamily="@font/bold"/>

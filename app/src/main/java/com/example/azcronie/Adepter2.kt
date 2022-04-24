@@ -32,32 +32,32 @@ class Adapter2(private val list: ArrayList<ItemModel2>) :
         var cnt = holder.counter.text.toString().toInt()
 
 
-        holder.text1.setOnClickListener {
-            cnt--
-            holder.counter.text = cnt.toString()
-            if (cnt == 0) {
-                list.removeAt(position)
-                notifyItemRemoved(position)
-                notifyItemRangeChanged(position, list.size)
-                Log.d("pos", position.toString())
-                Log.d("size", list.size.toString())
-                if (list.size == 0) {
-                    it.findNavController().navigate(R.id.action_blankFragment_to_chooseFragment2)
-                }
-
-            }
-
-        }
-//
 //        holder.text1.setOnClickListener {
 //            cnt--
 //            holder.counter.text = cnt.toString()
-//            if (cnt <= 0) {
-//                cnt = 0
-//                holder.text1.setBackgroundColor(Color.parseColor("#808080"))
-//                notifyItemChanged(position)
+//            if (cnt == 0) {
+//                list.removeAt(position)
+//                notifyItemRemoved(position)
+//                notifyItemRangeChanged(position, list.size)
+//                Log.d("pos", position.toString())
+//                Log.d("size", list.size.toString())
+//                if (list.size == 0) {
+//                    it.findNavController().navigate(R.id.action_blankFragment_to_chooseFragment2)
+//                }
+//
 //            }
+//
 //        }
+        holder.text1.setOnClickListener {
+            cnt--
+            if (cnt >0) {
+                holder.counter.text = cnt.toString()
+            }
+            else if(cnt==0)
+            {
+                holder.counter.text="تم"
+            }
+        }
     }
 
     override fun getItemCount(): Int {

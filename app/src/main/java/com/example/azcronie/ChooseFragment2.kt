@@ -41,6 +41,12 @@ class ChooseFragment2 : Fragment(R.layout.fragment_choose2) {
         binding.kk.setOnClickListener{
             navController.navigate(R.id.action_chooseFragment2_to_brFragment)
         }
+        binding.ww.setOnClickListener{
+            navController.navigate(R.id.action_chooseFragment2_to_finalFragment2)
+        }
+        binding.pp.setOnClickListener{
+            navController.navigate(R.id.action_chooseFragment2_to_resaleFragment3)
+        }
 
     }
 

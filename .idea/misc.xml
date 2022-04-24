@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Azcronie/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.331" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/Azcronie/app/src/main/res/drawable/chose.xml" value="0.359" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Azcronie/app/src/main/res/drawable/rectangle.xml" value="0.2925" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Azcronie/app/src/main/res/drawable/shape.xml" value="0.2925" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Azcronie/app/src/main/res/drawable/text.xml" value="0.2925" />
@@ -15,13 +16,15 @@
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Azcronie/app/src/main/res/layout/fragment_count.xml" value="0.18" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Azcronie/app/src/main/res/layout/fragment_end.xml" value="0.223731884057971" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Azcronie/app/src/main/res/layout/fragment_face.xml" value="0.223731884057971" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/Azcronie/app/src/main/res/layout/fragment_final2.xml" value="0.17831813576494426" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Azcronie/app/src/main/res/layout/fragment_last.xml" value="0.223731884057971" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/Azcronie/app/src/main/res/layout/fragment_last2.xml" value="0.17831813576494426" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Azcronie/app/src/main/res/layout/fragment_recycler.xml" value="0.223731884057971" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Azcronie/app/src/main/res/layout/fragment_resala.xml" value="0.223731884057971" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Azcronie/app/src/main/res/layout/fragment_zecr.xml" value="0.25" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Azcronie/app/src/main/res/layout/itemmodel.xml" value="0.25" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Azcronie/app/src/main/res/layout/itemmodel2.xml" value="0.223731884057971" />
-        <entry key="..\:/Users/Dell/AndroidStudioProjects/Azcronie/app/src/main/res/layout/itemmodel3.xml" value="0.223731884057971" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/Azcronie/app/src/main/res/layout/itemmodel3.xml" value="0.25" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Azcronie/app/src/main/res/layout/model.xml" value="0.223731884057971" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Azcronie/app/src/main/res/menu/menu1.xml" value="0.5" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Azcronie/app/src/main/res/menu/menu2.xml" value="0.35104166666666664" />

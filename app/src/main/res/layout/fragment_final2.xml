@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="#070F40"
+    android:gravity="center"
+    tools:context=".FinalFragment2">
+
+
+    <TextView
+        android:id="@+id/salah"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_marginBottom="@dimen/_40sdp"
+        android:layout_height="@dimen/_45sdp"
+        android:textSize="@dimen/_25sdp"
+        android:background="@drawable/chose"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:fontFamily="@font/bold"
+        android:text="أذكار الصلاة" />
+
+    <TextView
+        android:id="@+id/msged"
+        android:layout_marginBottom="@dimen/_40sdp"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_45sdp"
+        android:textSize="@dimen/_25sdp"
+        android:background="@drawable/chose"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:fontFamily="@font/bold"
+        android:text="أذكار المسجد" />
+
+    <TextView
+        android:id="@+id/noom"
+        android:layout_marginBottom="@dimen/_40sdp"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_45sdp"
+        android:textSize="@dimen/_25sdp"
+        android:fontFamily="@font/bold"
+        android:background="@drawable/chose"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:text="أذكار النوم" />
+
+    <TextView
+        android:id="@+id/astikas"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_45sdp"
+        android:textSize="@dimen/_24sdp"
+        android:background="@drawable/chose"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:fontFamily="@font/bold"
+        android:text="أذكار الاستيقاظ" />
+
+</LinearLayout>

@@ -19,7 +19,22 @@ class ResaleFragment : Fragment(R.layout.fragment_resala) {
 
         val activity = activity as MainActivity
         activity.supportActionBar?.hide()
+    val A=ArrayList<ItemModel3>()
+        A.add(ItemModel3(R.drawable.k293))
+        A.add(ItemModel3(R.drawable.k294))
+        A.add(ItemModel3(R.drawable.k295))
+        A.add(ItemModel3(R.drawable.k296))
+        A.add(ItemModel3(R.drawable.k297))
+        A.add(ItemModel3(R.drawable.k298))
+        A.add(ItemModel3(R.drawable.k299))
+        A.add(ItemModel3(R.drawable.k300))
+        A.add(ItemModel3(R.drawable.k301))
+        A.add(ItemModel3(R.drawable.k302))
+        A.add(ItemModel3(R.drawable.k303))
 
+        val adapter = Adapter3(A)
+        binding.re.layoutManager = LinearLayoutManager(requireContext())
+        binding.re.adapter = adapter
     }
 
 }
