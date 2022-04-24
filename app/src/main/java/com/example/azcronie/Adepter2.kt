@@ -1,16 +1,9 @@
 package com.example.azcronie
 
-import android.graphics.Color
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import androidx.appcompat.app.AppCompatActivity
-import androidx.core.os.bundleOf
-import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
-import com.example.azcronie.databinding.FragmentResalaBinding
 import com.example.azcronie.databinding.Itemmodel2Binding
-import com.example.azcronie.databinding.ItemmodelBinding
 
 class Adapter2(private val list: ArrayList<ItemModel2>) :
     RecyclerView.Adapter<Adapter2.ViewHolder>() {
@@ -28,8 +21,25 @@ class Adapter2(private val list: ArrayList<ItemModel2>) :
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val item = list[position]
         holder.text1.text = item.text
-        holder.counter.text = item.counter.toString()
-        var cnt = holder.counter.text.toString().toInt()
+
+        // you can put if condition inside an assignment process but it must has else part
+        holder.counter.text = if (item.counter > 0) item.counter.toString() else "تم"
+
+        try {
+            // this try part because if counter.text = "تم" it can't be converted toInt so it will cause exception
+            var cnt = holder.counter.text.toString().toInt()
+            holder.text1.setOnClickListener {
+                cnt--
+                if (cnt > 0) {
+                    holder.counter.text = cnt.toString()
+                    item.counter = cnt
+                } else {
+                    holder.counter.text = "تم"
+                    item.counter = cnt
+                }
+            }
+        } catch (ex: Exception) {
+        }
 
 
 //        holder.text1.setOnClickListener {
@@ -48,16 +58,7 @@ class Adapter2(private val list: ArrayList<ItemModel2>) :
 //            }
 //
 //        }
-        holder.text1.setOnClickListener {
-            cnt--
-            if (cnt >0) {
-                holder.counter.text = cnt.toString()
-            }
-            else if(cnt==0)
-            {
-                holder.counter.text="تم"
-            }
-        }
+
     }
 
     override fun getItemCount(): Int {

@@ -1,21 +1,21 @@
 package com.example.azcronie
 
-import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.Toast
-import androidx.core.os.bundleOf
-import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
 import com.example.azcronie.databinding.Itemmodel3Binding
-import com.example.azcronie.databinding.ItemmodelBinding
 
-class Adapter3(private val list1: ArrayList<ItemModel3>) : RecyclerView.Adapter<Adapter3.ViewHolder>() {
+class Adapter3(private val list1: ArrayList<ItemModel3>) :
+    RecyclerView.Adapter<Adapter3.ViewHolder>() {
     inner class ViewHolder(val binding: Itemmodel3Binding) : RecyclerView.ViewHolder(binding.root) {
         val image = binding.imageView2
     }
-    val A=ArrayList<Int>()
-    fun SetImage(){
+
+    val A = ArrayList<Int>()
+
+    // never forget functions starts with small letter
+    fun setImage() {
         A.add(R.drawable.k294)
         A.add(R.drawable.k295)
         A.add(R.drawable.k296)
@@ -28,6 +28,7 @@ class Adapter3(private val list1: ArrayList<ItemModel3>) : RecyclerView.Adapter<
         A.add(R.drawable.k303)
         A.add(R.drawable.k304)
     }
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         return ViewHolder(
             Itemmodel3Binding.inflate(LayoutInflater.from(parent.context), parent, false)
@@ -35,11 +36,11 @@ class Adapter3(private val list1: ArrayList<ItemModel3>) : RecyclerView.Adapter<
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        val item=list1[position]
-        holder.image.setOnClickListener{
-            Toast.makeText(it.context,position.toString(), Toast.LENGTH_SHORT).show()
+        val item = list1[position]
+        holder.image.setOnClickListener {
+            Toast.makeText(it.context, position.toString(), Toast.LENGTH_SHORT).show()
         }
-        SetImage()
+        setImage()
         holder.image.setImageResource(A[position])
     }
 

@@ -1,12 +1,11 @@
 package com.example.azcronie
 
 import android.os.Bundle
-import android.view.*
+import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import androidx.recyclerview.widget.LinearLayoutManager
-
 import com.example.azcronie.databinding.FragmentResalaBinding
 
 class ResaleFragment : Fragment(R.layout.fragment_resala) {
@@ -19,7 +18,7 @@ class ResaleFragment : Fragment(R.layout.fragment_resala) {
 
         val activity = activity as MainActivity
         activity.supportActionBar?.hide()
-    val A=ArrayList<ItemModel3>()
+        val A = ArrayList<ItemModel3>()
         A.add(ItemModel3(R.drawable.k293))
         A.add(ItemModel3(R.drawable.k294))
         A.add(ItemModel3(R.drawable.k295))
