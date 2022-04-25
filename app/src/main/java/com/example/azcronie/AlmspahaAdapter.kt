@@ -8,8 +8,8 @@ import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
 import com.example.azcronie.databinding.ItemmodelBinding
 
-class Adapter(private val list1: ArrayList<ItemModel>) :
-    RecyclerView.Adapter<Adapter.ViewHolder>() {
+class AlmspahaAdapter(private val list1: ArrayList<ItemModel>) :
+    RecyclerView.Adapter<AlmspahaAdapter.ViewHolder>() {
     inner class ViewHolder(val binding: ItemmodelBinding) : RecyclerView.ViewHolder(binding.root) {
         var text = binding.textView3
     }

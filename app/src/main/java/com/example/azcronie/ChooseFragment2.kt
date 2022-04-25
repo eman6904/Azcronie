@@ -9,7 +9,7 @@ import androidx.core.os.bundleOf
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import androidx.navigation.findNavController
-import com.example.azcronie.databinding.FragmentBlankBinding
+
 import com.example.azcronie.databinding.FragmentChoose2Binding
 
 

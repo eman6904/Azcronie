@@ -6,8 +6,8 @@ import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.example.azcronie.databinding.Itemmodel3Binding
 
-class Adapter3(private val list1: ArrayList<ItemModel3>) :
-    RecyclerView.Adapter<Adapter3.ViewHolder>() {
+class KahfAdapter(private val list1: ArrayList<ItemModel3>) :
+    RecyclerView.Adapter<KahfAdapter.ViewHolder>() {
     inner class ViewHolder(val binding: Itemmodel3Binding) : RecyclerView.ViewHolder(binding.root) {
         val image = binding.imageView2
     }
@@ -16,6 +16,7 @@ class Adapter3(private val list1: ArrayList<ItemModel3>) :
 
     // never forget functions starts with small letter
     fun setImage() {
+        A.add(R.drawable.kkk3)
         A.add(R.drawable.k294)
         A.add(R.drawable.k295)
         A.add(R.drawable.k296)

@@ -52,4 +52,15 @@
         android:textColor="@color/white"
         android:textSize="22dp" />
 
-    </FrameLayout>
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="@dimen/_280sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_480sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:textColor="@color/white"
+        android:gravity="right"
+        android:textSize="@dimen/_20sdp"
+        android:text="**اللهم اغفر لوالدي كما ربياني صغيرا**" />
+
+</FrameLayout>

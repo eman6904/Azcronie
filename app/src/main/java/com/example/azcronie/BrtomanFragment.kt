@@ -9,7 +9,7 @@ import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import com.example.azcronie.databinding.FragmentBrBinding
 
-class BrFragment : Fragment(R.layout.fragment_br) {
+class BrtomanFragment : Fragment(R.layout.fragment_br) {
 
     private lateinit var binding: FragmentBrBinding
     private lateinit var navController: NavController

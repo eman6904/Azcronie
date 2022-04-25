@@ -1,18 +1,17 @@
 package com.example.azcronie
 
-import android.app.Activity
 import android.graphics.Color
 import android.os.Bundle
 import android.view.*
-import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
-import com.example.azcronie.databinding.FragmentZecrBinding
+import com.example.azcronie.databinding.AlmspahafragmentBinding
 
 
-class ZecrFragment : Fragment(R.layout.fragment_zecr) {
-    private lateinit var binding: FragmentZecrBinding
+
+class AlmspahaFragment : Fragment(R.layout.almspahafragment) {
+    private lateinit var binding: AlmspahafragmentBinding
     private lateinit var navController: NavController
     private val text = ArrayList<String>()
     private fun setupArray() {
@@ -30,7 +29,7 @@ class ZecrFragment : Fragment(R.layout.fragment_zecr) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        binding = FragmentZecrBinding.bind(view)
+        binding = AlmspahafragmentBinding.bind(view)
         navController = Navigation.findNavController(view)
 
         val activity = activity as MainActivity

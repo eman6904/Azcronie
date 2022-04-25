@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#070F40"
-    tools:context=".ZecrFragment">
+    tools:context=".AlmspahaFragment">
 
     <TextView
         android:id="@+id/textView6"

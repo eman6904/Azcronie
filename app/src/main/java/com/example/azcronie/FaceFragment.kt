@@ -11,7 +11,6 @@ import android.view.ViewGroup
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import com.example.azcronie.databinding.FragmentFaceBinding
-import com.example.azcronie.databinding.FragmentRecyclerBinding
 import kotlinx.coroutines.Delay
 
 

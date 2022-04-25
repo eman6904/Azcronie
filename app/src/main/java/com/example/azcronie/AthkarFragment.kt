@@ -6,16 +6,16 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.azcronie.databinding.FragmentBlankBinding
+import com.example.azcronie.databinding.AthkarfragmentBinding
 
 
-class BlankFragment : Fragment(R.layout.fragment_blank) {
-    private lateinit var binding: FragmentBlankBinding
+class AthkarFragment : Fragment(R.layout.athkarfragment) {
+    private lateinit var binding: AthkarfragmentBinding
     private lateinit var navController: NavController
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        binding = FragmentBlankBinding.bind(view)
+        binding = AthkarfragmentBinding.bind(view)
         navController = Navigation.findNavController(view)
 
         val activity = activity as MainActivity
@@ -28,25 +28,25 @@ class BlankFragment : Fragment(R.layout.fragment_blank) {
         when (n) {
             1 -> {
                 binding.t1.text = "أذكار الصلاة"
-                val adapter = Adapter2(p.setSalah())
+                val adapter = AthkarAdapter(p.setSalah())
                 binding.re.layoutManager = LinearLayoutManager(requireContext())
                 binding.re.adapter = adapter
             }
             2 -> {
                 binding.t1.text = "أذكار المسجد"
-                val adapter = Adapter2(p.setMsgedd())
+                val adapter = AthkarAdapter(p.setMsgedd())
                 binding.re.layoutManager = LinearLayoutManager(requireContext())
                 binding.re.adapter = adapter
             }
             3 -> {
                 binding.t1.text = "أذكار النوم"
-                val adapter = Adapter2(p.setSleep())
+                val adapter = AthkarAdapter(p.setSleep())
                 binding.re.layoutManager = LinearLayoutManager(requireContext())
                 binding.re.adapter = adapter
             }
             4 -> {
                 binding.t1.text = "أذكار الاستيقاظ"
-                val adapter = Adapter2(p.setWakeup())
+                val adapter = AthkarAdapter(p.setWakeup())
                 binding.re.layoutManager = LinearLayoutManager(requireContext())
                 binding.re.adapter = adapter
             }
@@ -54,11 +54,11 @@ class BlankFragment : Fragment(R.layout.fragment_blank) {
 
         if (number == 1) {
             binding.t1.text = "أذكار الصباح"
-            val adapter = Adapter2(p.setMorning())
+            val adapter = AthkarAdapter(p.setMorning())
             binding.re.layoutManager = LinearLayoutManager(requireContext())
             binding.re.adapter = adapter
         } else if (number == 2) {
-            val adapter = Adapter2(p.setEvening())
+            val adapter = AthkarAdapter(p.setEvening())
             binding.re.layoutManager = LinearLayoutManager(requireContext())
             binding.re.adapter = adapter
         }
