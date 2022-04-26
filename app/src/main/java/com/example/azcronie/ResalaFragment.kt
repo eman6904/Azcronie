@@ -2,21 +2,18 @@ package com.example.azcronie
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import com.bumptech.glide.Glide
-import com.example.azcronie.databinding.FragmentCountBinding
-import com.example.azcronie.databinding.FragmentLastBinding
+import com.example.azcronie.databinding.ResalafragmentBinding
 
-class LastFragment : Fragment(R.layout.fragment_last) {
-    private lateinit var binding: FragmentLastBinding
+class ResalaFragment : Fragment(R.layout.resalafragment) {
+    private lateinit var binding: ResalafragmentBinding
     private lateinit var navController: NavController
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        binding = FragmentLastBinding.bind(view)
+        binding = ResalafragmentBinding.bind(view)
         navController = Navigation.findNavController(view)
 
         val activity = activity as MainActivity

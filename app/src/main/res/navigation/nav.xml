@@ -23,9 +23,9 @@
     </fragment>
     <fragment
         android:id="@+id/recyclerFragment2"
-        android:name="com.example.azcronie.RecyclerFragment"
+        android:name="com.example.azcronie.AlmsRecyclerFragment"
         android:label="fragment_recycler"
-        tools:layout="@layout/fragment_recycler" >
+        tools:layout="@layout/almsrecyclerfragment" >
         <action
             android:id="@+id/action_recyclerFragment2_to_countFragment2"
             app:destination="@id/countFragment2" />
@@ -44,9 +44,9 @@
     </fragment>
     <fragment
         android:id="@+id/zecrFragment2"
-        android:name="com.example.azcronie.ZecrFragment"
+        android:name="com.example.azcronie.AlmspahaFragment"
         android:label="fragment_zecr"
-        tools:layout="@layout/fragment_zecr" >
+        tools:layout="@layout/almspahafragment" >
         <action
             android:id="@+id/action_zecrFragment2_to_endFragment2"
             app:destination="@id/endFragment2" />
@@ -68,16 +68,16 @@
     </fragment>
     <fragment
         android:id="@+id/resaleFragment3"
-        android:name="com.example.azcronie.ResaleFragment"
+        android:name="com.example.azcronie.KahfFragment"
         android:label="fragment_resala"
-        tools:layout="@layout/fragment_resala" >
+        tools:layout="@layout/kahffragment" >
         <action
             android:id="@+id/action_resaleFragment3_to_blankFragment"
             app:destination="@id/blankFragment" />
     </fragment>
     <fragment
         android:id="@+id/brFragment"
-        android:name="com.example.azcronie.BrFragment"
+        android:name="com.example.azcronie.BrtomanFragment"
         android:label="fragment_br"
         tools:layout="@layout/fragment_br" >
         <action
@@ -86,14 +86,14 @@
     </fragment>
     <fragment
         android:id="@+id/lastFragment"
-        android:name="com.example.azcronie.LastFragment"
+        android:name="com.example.azcronie.ResalaFragment"
         android:label="fragment_last"
-        tools:layout="@layout/fragment_last" />
+        tools:layout="@layout/resalafragment" />
     <fragment
         android:id="@+id/blankFragment"
-        android:name="com.example.azcronie.BlankFragment"
+        android:name="com.example.azcronie.AthkarFragment"
         android:label="fragment_blank"
-        tools:layout="@layout/fragment_blank" >
+        tools:layout="@layout/athkarfragment" >
         <action
             android:id="@+id/action_blankFragment_to_resaleFragment3"
             app:destination="@id/resaleFragment3" />
@@ -124,9 +124,9 @@
     </fragment>
     <fragment
         android:id="@+id/finalFragment2"
-        android:name="com.example.azcronie.FinalFragment2"
+        android:name="com.example.azcronie.Athkar2Fragment"
         android:label="fragment_final2"
-        tools:layout="@layout/fragment_final2" >
+        tools:layout="@layout/athkar2fragment" >
         <action
             android:id="@+id/action_finalFragment2_to_blankFragment"
             app:destination="@id/blankFragment" />

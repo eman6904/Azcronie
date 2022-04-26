@@ -1,6 +1,6 @@
 package com.example.azcronie
 
-public class ArrayGroup {
+class ArrayGroup {
     //***********************************************************اذكار الصباح****************************************************
 
 
@@ -342,6 +342,7 @@ public class ArrayGroup {
         return array3
 
     }
+
     //***************************************************************************************
     fun setMsgedd(): ArrayList<ItemModel2> {
         val array3 = ArrayList<ItemModel2>()
@@ -360,6 +361,7 @@ public class ArrayGroup {
         )
         return array3
     }
+
     //*******************************************************************************************
     fun setSleep(): ArrayList<ItemModel2> {
         val array = ArrayList<ItemModel2>()
@@ -462,6 +464,7 @@ public class ArrayGroup {
 
         return array
     }
+
     //*****************************************************************************************************
     fun setWakeup(): ArrayList<ItemModel2> {
         val array3 = ArrayList<ItemModel2>()

@@ -8,14 +8,6 @@
     android:gravity="center"
     android:background="#6A4C27"
    >
-
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="match_parent"
-        android:layout_height="344dp"
-        android:layout_marginTop="-60dp"
-        app:srcCompat="@drawable/kkk3" />
-
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/re"
         android:layout_width="match_parent"

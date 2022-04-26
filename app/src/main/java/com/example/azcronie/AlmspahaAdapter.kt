@@ -2,16 +2,14 @@ package com.example.azcronie
 
 import android.graphics.Color
 import android.view.LayoutInflater
-import android.view.View.inflate
 import android.view.ViewGroup
 import androidx.core.os.bundleOf
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
-import com.example.azcronie.databinding.ActivityMainBinding.inflate
 import com.example.azcronie.databinding.ItemmodelBinding
-import com.example.azcronie.databinding.ItemmodelBinding.inflate
 
-class Adapter(private val list1: ArrayList<ItemModel>) : RecyclerView.Adapter<Adapter.ViewHolder>() {
+class AlmspahaAdapter(private val list1: ArrayList<ItemModel>) :
+    RecyclerView.Adapter<AlmspahaAdapter.ViewHolder>() {
     inner class ViewHolder(val binding: ItemmodelBinding) : RecyclerView.ViewHolder(binding.root) {
         var text = binding.textView3
     }
@@ -23,8 +21,8 @@ class Adapter(private val list1: ArrayList<ItemModel>) : RecyclerView.Adapter<Ad
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        val item=list1[position]
-       holder.text.text="${position+1}-"+item.text
+        val item = list1[position]
+        holder.text.text = "${position + 1}-" + item.text
 
         holder.binding.root.setOnClickListener {
 
