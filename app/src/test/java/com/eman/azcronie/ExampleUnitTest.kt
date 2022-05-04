@@ -1,4 +1,4 @@
-package com.example.azcronie
+package com.eman.azcronie
 
 import org.junit.Test
 

@@ -1,17 +1,13 @@
-package com.example.azcronie
+package com.eman.azcronie
 
-import android.app.PendingIntent
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
-import com.example.azcronie.databinding.FragmentFaceBinding
-import kotlinx.coroutines.Delay
+import com.eman.azcronie.databinding.FragmentFaceBinding
 
 
 class FaceFragment : Fragment(R.layout.fragment_face) {

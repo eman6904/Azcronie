@@ -1,10 +1,10 @@
-package com.example.azcronie
+package com.eman.azcronie
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
-import com.example.azcronie.databinding.Itemmodel3Binding
+import com.eman.azcronie.databinding.Itemmodel3Binding
 
 class KahfAdapter(private val list1: ArrayList<ItemModel3>) :
     RecyclerView.Adapter<KahfAdapter.ViewHolder>() {

@@ -1,11 +1,8 @@
-package com.example.azcronie
+package com.eman.azcronie
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.Menu
-import android.view.MenuInflater
-import android.view.MenuItem
-import com.example.azcronie.databinding.ActivityMainBinding
+import com.eman.azcronie.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding

@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_gravity="center"
    android:orientation="vertical"
-    android:background="#070F40"
     tools:context=".ChooseFragment2">
 
+  <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_gravity="center"
+      android:orientation="vertical"
+      android:background="#070F40">
     <TextView
         android:id="@+id/ss"
         android:layout_width="@dimen/_220sdp"
@@ -17,7 +21,7 @@
         android:gravity="center"
         android:background="@drawable/chose"
         android:layout_marginLeft="@dimen/_45sdp"
-        android:layout_marginTop="@dimen/_110sdp"
+        android:layout_marginTop="@dimen/_100sdp"
         android:textColor="@color/white"
         android:textSize="@dimen/_20sdp"
         android:fontFamily="@font/bold"/>
@@ -29,7 +33,7 @@
         android:gravity="center"
         android:background="@drawable/chose"
         android:layout_marginLeft="@dimen/_45sdp"
-        android:layout_marginTop="@dimen/_180sdp"
+        android:layout_marginTop="@dimen/_170sdp"
         android:textColor="@color/white"
         android:textSize="@dimen/_20sdp"
         android:fontFamily="@font/bold"/>
@@ -41,7 +45,7 @@
         android:text="المسبحة"
         android:background="@drawable/chose"
         android:layout_marginLeft="@dimen/_45sdp"
-        android:layout_marginTop="@dimen/_250sdp"
+        android:layout_marginTop="@dimen/_240sdp"
         android:textColor="@color/white"
         android:textSize="@dimen/_22sdp"
         android:fontFamily="@font/bold"/>
@@ -53,7 +57,7 @@
         android:background="@drawable/chose"
         android:gravity="center"
         android:layout_marginLeft="@dimen/_45sdp"
-        android:layout_marginTop="@dimen/_460sdp"
+        android:layout_marginTop="@dimen/_435sdp"
         android:textColor="@color/white"
         android:textSize="@dimen/_20sdp"
         android:fontFamily="@font/bold"/>
@@ -65,7 +69,7 @@
         android:background="@drawable/chose"
         android:gravity="center"
         android:layout_marginLeft="@dimen/_45sdp"
-        android:layout_marginTop="@dimen/_390sdp"
+        android:layout_marginTop="@dimen/_375sdp"
         android:textColor="@color/white"
         android:textSize="@dimen/_20sdp"
         android:fontFamily="@font/bold"/>
@@ -77,8 +81,20 @@
         android:background="@drawable/chose"
         android:gravity="center"
         android:layout_marginLeft="@dimen/_45sdp"
-        android:layout_marginTop="@dimen/_320sdp"
+        android:layout_marginTop="@dimen/_310sdp"
         android:textColor="@color/white"
         android:textSize="@dimen/_20sdp"
         android:fontFamily="@font/bold"/>
-</FrameLayout>
+  </FrameLayout>
+    <!-- Banner AdView -->
+    <com.google.android.gms.ads.AdView
+        xmlns:ads= "http://schemas.android.com/apk/res-auto"
+        android:layout_alignParentBottom= "true"
+        android:layout_centerHorizontal="true"
+        ads:adUnitId= "ca-app-pub-1956250024752521/9713943530"
+        android:id= "@+id/bannerAdView"
+        ads:adSize= "SMART_BANNER"
+        android:layout_width= "match_parent"
+        android:layout_height= "wrap_content">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>

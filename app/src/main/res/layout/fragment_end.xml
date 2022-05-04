@@ -4,18 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0E0C0C"
-    tools:context=".EndFragment">
+    android:background="#070F40"
+   >
 
 
-    <VideoView
-        android:id="@+id/simpleVideoView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.526"
-        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/t"
@@ -45,7 +37,7 @@
         android:id="@+id/textView6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-       android:layout_gravity="bottom"
+        android:layout_gravity="bottom"
         android:fontFamily="@font/bold"
         android:gravity="right"
         android:text="✨✨✨✨✨✨✨✨✨✨✨✨✨"
@@ -62,5 +54,13 @@
         android:gravity="right"
         android:textSize="@dimen/_20sdp"
         android:text="**اللهم اغفر لوالدي كما ربياني صغيرا**" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="274dp"
+        android:layout_height="385dp"
+        android:layout_marginLeft="@dimen/_43sdp"
+        android:alpha="0"
+        android:src="@drawable/mos" />
 
 </FrameLayout>

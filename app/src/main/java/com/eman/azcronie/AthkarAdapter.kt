@@ -1,10 +1,10 @@
-package com.example.azcronie
+package com.eman.azcronie
 
 import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.azcronie.databinding.Itemmodel2Binding
+import com.eman.azcronie.databinding.Itemmodel2Binding
 
 class AthkarAdapter(private val list: ArrayList<ItemModel2>) :
     RecyclerView.Adapter<AthkarAdapter.ViewHolder>() {

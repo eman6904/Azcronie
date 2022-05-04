@@ -1,4 +1,4 @@
-package com.example.azcronie
+package com.eman.azcronie
 
 import android.graphics.Color
 import android.view.LayoutInflater
@@ -6,7 +6,8 @@ import android.view.ViewGroup
 import androidx.core.os.bundleOf
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
-import com.example.azcronie.databinding.ItemmodelBinding
+import com.eman.azcronie.databinding.ItemmodelBinding
+
 
 class AlmspahaAdapter(private val list1: ArrayList<ItemModel>) :
     RecyclerView.Adapter<AlmspahaAdapter.ViewHolder>() {

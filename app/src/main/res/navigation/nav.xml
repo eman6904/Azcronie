@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/faceFragment"
-        android:name="com.example.azcronie.FaceFragment"
+        android:name="com.eman.azcronie.FaceFragment"
         android:label="fragment_face"
         tools:layout="@layout/fragment_face" >
         <action
@@ -23,7 +23,7 @@
     </fragment>
     <fragment
         android:id="@+id/recyclerFragment2"
-        android:name="com.example.azcronie.AlmsRecyclerFragment"
+        android:name="com.eman.azcronie.AlmsRecyclerFragment"
         android:label="fragment_recycler"
         tools:layout="@layout/almsrecyclerfragment" >
         <action
@@ -35,7 +35,7 @@
     </fragment>
     <fragment
         android:id="@+id/countFragment2"
-        android:name="com.example.azcronie.CountFragment"
+        android:name="com.eman.azcronie.CountFragment"
         android:label="fragment_count"
         tools:layout="@layout/fragment_count" >
         <action
@@ -44,7 +44,7 @@
     </fragment>
     <fragment
         android:id="@+id/zecrFragment2"
-        android:name="com.example.azcronie.AlmspahaFragment"
+        android:name="com.eman.azcronie.AlmspahaFragment"
         android:label="fragment_zecr"
         tools:layout="@layout/almspahafragment" >
         <action
@@ -53,7 +53,7 @@
     </fragment>
     <fragment
         android:id="@+id/endFragment2"
-        android:name="com.example.azcronie.EndFragment"
+        android:name="com.eman.azcronie.EndFragment"
         android:label="fragment_end"
         tools:layout="@layout/fragment_end" >
         <action
@@ -68,7 +68,7 @@
     </fragment>
     <fragment
         android:id="@+id/resaleFragment3"
-        android:name="com.example.azcronie.KahfFragment"
+        android:name="com.eman.azcronie.KahfFragment"
         android:label="fragment_resala"
         tools:layout="@layout/kahffragment" >
         <action
@@ -77,7 +77,7 @@
     </fragment>
     <fragment
         android:id="@+id/brFragment"
-        android:name="com.example.azcronie.BrtomanFragment"
+        android:name="com.eman.azcronie.BrtomanFragment"
         android:label="fragment_br"
         tools:layout="@layout/fragment_br" >
         <action
@@ -86,12 +86,12 @@
     </fragment>
     <fragment
         android:id="@+id/lastFragment"
-        android:name="com.example.azcronie.ResalaFragment"
+        android:name="com.eman.azcronie.ResalaFragment"
         android:label="fragment_last"
         tools:layout="@layout/resalafragment" />
     <fragment
         android:id="@+id/blankFragment"
-        android:name="com.example.azcronie.AthkarFragment"
+        android:name="com.eman.azcronie.AthkarFragment"
         android:label="fragment_blank"
         tools:layout="@layout/athkarfragment" >
         <action
@@ -103,7 +103,7 @@
     </fragment>
     <fragment
         android:id="@+id/chooseFragment2"
-        android:name="com.example.azcronie.ChooseFragment2"
+        android:name="com.eman.azcronie.ChooseFragment2"
         android:label="fragment_choose2"
         tools:layout="@layout/fragment_choose2" >
         <action
@@ -124,7 +124,7 @@
     </fragment>
     <fragment
         android:id="@+id/finalFragment2"
-        android:name="com.example.azcronie.Athkar2Fragment"
+        android:name="com.eman.azcronie.Athkar2Fragment"
         android:label="fragment_final2"
         tools:layout="@layout/athkar2fragment" >
         <action

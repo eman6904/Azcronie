@@ -1,3 +1,3 @@
-package com.example.azcronie
+package com.eman.azcronie
 
 data class ItemModel (var text: String)

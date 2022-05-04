@@ -1,4 +1,4 @@
-package com.example.azcronie
+package com.eman.azcronie
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,7 +6,7 @@ import android.view.View
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import com.bumptech.glide.Glide
-import com.example.azcronie.databinding.ResalafragmentBinding
+import com.eman.azcronie.databinding.ResalafragmentBinding
 
 class ResalaFragment : Fragment(R.layout.resalafragment) {
     private lateinit var binding: ResalafragmentBinding

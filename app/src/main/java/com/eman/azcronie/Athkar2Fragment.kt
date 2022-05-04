@@ -1,4 +1,4 @@
-package com.example.azcronie
+package com.eman.azcronie
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,7 +7,7 @@ import androidx.core.os.bundleOf
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import androidx.navigation.findNavController
-import com.example.azcronie.databinding.Athkar2fragmentBinding
+import com.eman.azcronie.databinding.Athkar2fragmentBinding
 
 
 

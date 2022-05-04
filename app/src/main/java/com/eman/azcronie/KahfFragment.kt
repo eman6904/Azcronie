@@ -1,4 +1,4 @@
-package com.example.azcronie
+package com.eman.azcronie
 
 import android.os.Bundle
 import android.view.View
@@ -6,7 +6,7 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.azcronie.databinding.KahffragmentBinding
+import com.eman.azcronie.databinding.KahffragmentBinding
 
 class KahfFragment : Fragment(R.layout.kahffragment) {
     private lateinit var binding: KahffragmentBinding
