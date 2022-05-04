@@ -1,59 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
     android:background="#070F40"
-   >
-
-
-
-    <TextView
-        android:id="@+id/t"
-        android:layout_marginTop="@dimen/_300sdp"
-        android:layout_marginLeft="@dimen/_180sdp"
-        android:gravity="right"
-        android:layout_width="wrap_content"
-        android:textSize="30dp"
-        android:textColor="@color/white"
-        android:fontFamily="@font/bold"
-        android:layout_height="wrap_content"
-        android:text="@string/ahsant" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="@dimen/_300sdp"
-        android:layout_height="106dp"
-        android:layout_marginLeft="@dimen/_1sdp"
-        android:layout_marginTop="@dimen/_335sdp"
-        android:gravity="right"
-        android:fontFamily="@font/bold"
-        android:text="@string/aa"
-        android:textColor="@color/white"
-        android:textSize="30dp" />
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        android:fontFamily="@font/bold"
-        android:gravity="right"
-        android:text="✨✨✨✨✨✨✨✨✨✨✨✨✨"
-        android:textColor="@color/white"
-        android:textSize="22dp" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="@dimen/_280sdp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/_480sdp"
-        android:layout_marginLeft="@dimen/_10sdp"
-        android:textColor="@color/white"
-        android:gravity="right"
-        android:textSize="@dimen/_20sdp"
-        android:text="**اللهم اغفر لوالدي كما ربياني صغيرا**" />
+    android:orientation="vertical">
 
     <ImageView
         android:id="@+id/imageView7"
@@ -63,4 +14,51 @@
         android:alpha="0"
         android:src="@drawable/mos" />
 
-</FrameLayout>
+    <TextView
+        android:id="@+id/t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_180sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:fontFamily="@font/bold"
+        android:gravity="right"
+        android:text="@string/ahsant"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="106dp"
+        android:layout_marginLeft="@dimen/_1sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:fontFamily="@font/bold"
+        android:gravity="right"
+        android:text="@string/aa"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="@dimen/_280sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:gravity="right"
+        android:text="**اللهم اغفر لوالدي كما ربياني صغيرا**"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_20sdp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/bold"
+        android:gravity="right|bottom"
+        android:text="✨✨✨✨✨✨✨✨✨✨✨✨✨"
+        android:textColor="@color/white"
+        android:textSize="22sp" />
+
+
+</LinearLayout>
